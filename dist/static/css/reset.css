@@ -1,0 +1,61 @@
+html {
+    font-family: 'Helvetica Neue',Tahoma,Arial,PingFangSC-Regular,'Hiragino Sans GB','Microsoft Yahei',sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-size-adjust: none;
+    text-size-adjust: none;
+    color: #333;
+    user-select: none;
+
+    /*
+    100vw 屏幕宽
+      设备屏幕也要分成7.5等分
+      每一个等分是 100/7.5 = 13.33333
+    750px 设计图
+      把设计图分成 7.5等份 每一份是100px
+      把100px作为一个单位换算
+
+
+  */
+
+    /*
+        rem 是根据html的文字大小 计算的
+        1rem = 1html文字大小 = 13.33333vw = 设计图上的100px
+   */
+}
+.enFont {
+    font-family: "SFMono-Regular", Consolas, "Liberation Mono", Menlo, Courier, monospace;
+}
+
+body {
+    background-color: #fff;
+    font-size: 12px;
+}
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    -webkit-tap-highlight-color: transparent;
+}
+a {
+    text-decoration: none;
+    color: #333;
+}
+img {
+    vertical-align: top;
+}
+ul{
+    list-style: none;
+}
+
+.clearfix:after{
+    content: ".";
+    display: block;
+    height:0;
+    clear:both;
+    visibility: hidden;
+}
+.clearfix { 
+    *zoom:1; 
+}
+
