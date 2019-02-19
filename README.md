@@ -2,23 +2,4 @@
 
 > A Vue.js project
 
-## Build Setup
-
-``` bash
-# install dependencies
-npm install
-
-# serve with hot reload at localhost:8080
-npm run dev
-
-# build for production with minification
-npm run build
-
-# build for production and view the bundle analyzer report
-npm run build --report
-```
-
-For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
-
-
-#已经打包好了，在dist文件夹内。
+#已经打包好了，在dist文件夹内，可以直接打开就能查看效果，vuex和永久存储写的主页和购物车功能，无后台数据的情况下使用模拟数据
